@@ -17,7 +17,7 @@ try {
     }
 
     switch ($page) {
-        case 'navbar': $mainController->navbar();
+        case 'home': $mainController->home();
             break;
         default: throw new Exception('Error 404 : Houston, we have a problem', 1);
     }

@@ -22,8 +22,8 @@ class MainController
         require_once $template;
     }
 
-    //function pour le vue Navbar
-    public function navbar()
+    //function pour le vue home
+    public function home()
     {
         $datas = $this->MainManager->getDatas();
         //cf. controllers/toolbox.class.php
@@ -31,12 +31,12 @@ class MainController
         // Toolbox::addAlertMessages("Un autre exemple de message d'alerte", Toolbox::COLOR_RED);
 
         $datas_page = [
-            'page_description' => 'Navbar description',
-            'page_title' => 'Navbar title',
+            'page_description' => 'Home sweet home',
+            'page_title' => 'Home',
             'datas' => $datas,
             // 'page_css' => ['home.css'], custom CSS
             // 'page_js' => ['action2.css'], custom JS
-            'view' => 'views/navbar.view.php',
+            'view' => 'views/home.view.php',
             'template' => 'views/common/template.php',
         ];
         $this->pageGenerator($datas_page); //appel de la fonction se trouvant dans la même classe

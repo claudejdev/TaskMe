@@ -16,6 +16,7 @@
           - [Tailor the template](#tailor-the-template)
       - [Les différentes étapes du projet](#les-différentes-étapes-du-projet)
       - [Gestion des utilisateurs (bonus)](#gestion-des-utilisateurs-bonus)
+    - [Bonus](#bonus)
 ## Intent
 
 > This is my list. There are many others like it, but this one is mine. I must master it as I must master my life. Without me, my list is useless. Without my list, I am useless.
@@ -86,18 +87,18 @@ Utilisé dans mainController.controller.php, par une fonction stockée dans tool
 - [x] Initialise the repo
 - [x] Set up the readme, import the tasks to perform
 ###### Analyse the requirements
-- [ ] Which datas will I need to store in the DB
-- [ ] Which views will I need
+- [x] Which datas will I need to store in the DB
+- [x] Which views will I need
 ###### Tailor the template
-- [ ] Create the views
+- [X] Create the views
 - [ ] Else
 
 #### Les différentes étapes du projet
-- [ ] Créer la base de données "todo"
-- [ ] Créer la table "liste"
-- [ ] Créer les différents champs
-- [ ] Remplir avec quelques données
-- [ ] Afficher les tâches dans une page "A faire"
+- [x] Créer la base de données "todo" *->taskme*
+- [x] Créer la table "liste" *-> tasks*
+- [X] Créer les différents champs
+- [X] Remplir avec quelques données
+- [X] Afficher les tâches dans une page "A faire"
 - [ ] Modifier la mise en forme, placez des checkbox
 - [ ] Ajouter un bouton "Tâche(s) terminée(s)"
 - [ ] Ajouter une page "Ajouter une tâche" qui affiche un formulaire pour récupérer la tâche
@@ -132,4 +133,7 @@ o l'utilisateur est invité à se reconnecter
 - [ ] Créer les différents champs et ajouter des données en DB
 - [ ] Récupérer le login et le mot de passe du formulaire et vérifier qu'ils correspondent en DB
 - [ ] Si la personne s'est trompée, alors afficher un message d'erreur.
+
+### Bonus
+- [ ] Create a Task-Me logo
   

@@ -6,7 +6,7 @@ abstract class Model
 
     private static function setDb()
     {
-        self::$pdo = new PDO('mysql:host=localhost;dbname=yemaya;charset=utf8', 'root', '');
+        self::$pdo = new PDO('mysql:host=localhost;dbname=taskme;charset=utf8', 'root', '');
         self::$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         //pas ERRMODE_WARNING, afin d'afficher l'erreur sur la vue error
     }

@@ -11,7 +11,7 @@ class MainManager extends Model
     {
         // $pdo = $this->getDb();
         // $req = $pdo->prepare("SELECT * FROM mytable");
-        $req = $this->getDb()->prepare('SELECT * FROM mytable');
+        $req = $this->getDb()->prepare('SELECT * FROM tasks');
         $req->execute();
         $datas = $req->fetchAll(PDO::FETCH_ASSOC); //FETCH_ASSOC pour éviter d'avoir des datas dupliquées
         $req->closeCursor();
